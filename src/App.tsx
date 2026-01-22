@@ -10,7 +10,15 @@ function App() {
   const lista = [1, 2, 3, 4, 5];
   const lista2 = ["a", "b", "c", "d", "e"];
 
-
+  //funcion para mostar datos
+  const mostrarDatos = () => {
+    console.log(nombre);
+    console.log(edad);
+    console.log(esMayorDeEdad);
+    console.log(mensaje);
+    console.log(lista);
+    console.log(lista2);
+  }
 
   return (
     <>
