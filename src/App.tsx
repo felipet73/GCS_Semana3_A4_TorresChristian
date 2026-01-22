@@ -20,6 +20,21 @@ function App() {
     console.log(lista2);
   }
 
+  //funcion para modificar variables
+  const modificarDatos = () => {
+    //nombre = "Pedro"; //no se puede modificar una constante
+    //edad = 25; //no se puede modificar una constante
+    //esMayorDeEdad = false; //no se puede modificar una constante
+    //mensaje = "Es menor de edad"; //no se puede modificar una constante
+    lista.push(6); //se puede modificar un array
+    lista2.push("f"); //se puede modificar un array
+  }
+
+  //llamada a las funciones
+  mostrarDatos();
+  modificarDatos();
+  mostrarDatos();
+
   return (
     <>
       <div>
